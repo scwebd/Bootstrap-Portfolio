@@ -1,9 +1,187 @@
-/*.nav-item {
-    display: inline;
-    float: right;
-}*/
 
-/*.navbar-collapse {
+/*COLORS:
+#4b5b5b - dk blu
+#7b9999 - med blu
+#760000 - dk rosso
+#cf0900 - lt rosso
+#b8cccb - lt blu
+#e5e5e5 - lt griglio
+#fff - bianco*/
+
+
+
+
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    color: #7b9999; 
+}
+
+.navbar-brand a:hover {
+    color: #cf0900;
+}
+
+.nav-header {
+/*    box-shadow: 0 20px 10px -14px rgba(123, 153, 153, .4);*/
+    border-bottom: 2px solid #7b9999;
+}
+
+.nav-link {
+    color: #4b5b5b;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.nav-link:hover {
+    color: #cf0900;
+    font-weight: 600;
+}
+
+.nav-link:active {
+    color: #cf0900;
+    font-weight: 600;
+}
+
+.mainSection {
+    margin-top: 185px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border: 2px solid #b8cccb;
+    border-radius: 14px;
+}
+
+.mainHeader {
+    padding: 20px 20px;
+}
+
+.mainContent {
+    padding: 20px;
+}
+
+
+.myPhoto {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+.sidebar {
+    margin-top: 185px;
+    height: 50%;
+    padding: 10px;
+    border: 2px solid #b8cccb;
+    border-radius: 14px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    padding: 20px 10px;
+    color: #4b5b5b;
+}
+
+.icons {
+    margin: 20px auto;
+}
+
+#GithubLogo {
+    height: 80px;
+    width: 80px;
+}
+
+#LinkedInLogo {
+    height: 80px;
+    width: 80px;
+}
+
+#StackOverflowLogo {
+    height: 80px;
+    width: 80px;
+}
+
+.container-fluid {
     position: relative;
+}
+
+.footer {
+    height: 57px;
+    background-color: #e5e5e5;
+    position: relative;
+}
+
+.footer-links {
+    display: inline;
+}
+
+.footerContent {
+    position: absolute;
+}
+
+
+/*.copyright {
+    color: #333;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    line-height: 50px;
 }*/
 
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    
+}
+
+.emptyText {
+    opacity: 0;
+}
+
+.boxes {
+    position: absolute;
+    right: 153px;
+}
+
+.box1 {
+    background-color: #760000;
+    height: 57px;
+    width: 57px;
+    border: none;
+    float: left;
+}
+
+.box2 {
+    background-color: #cf0900;
+    height: 57px;
+    width: 57px;
+    border: none;
+    float: left;
+}
+
+.box3 {
+    background-color: #7b9999;
+    height: 57px;
+    width: 57px;
+    border: none;
+    float: left;
+}
+
+.box4 {
+    background-color: #b8cccb;
+    height: 57px;
+    width: 57px;
+    border: none;
+    float: left;
+}
+
+.box5 {
+    background-color: #e5e5e5;
+    height: 57px;
+    width: 57px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 2px solid #fff;
+    float: left;
+}
