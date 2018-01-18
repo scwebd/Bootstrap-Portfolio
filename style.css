@@ -44,9 +44,15 @@
     font-weight: 600;
 }
 
+/*
+.container {
+    margin-top: 185px;
+}
+*/
+
 .mainSection {
     margin-top: 185px;
-    margin-bottom: 100px;
+/*    margin-bottom: 100px;*/
     padding: 10px;
     border: 2px solid #b8cccb;
     border-radius: 14px;
@@ -81,9 +87,18 @@
     color: #4b5b5b;
 }
 
+/*
 .icons {
     margin: 20px auto;
 }
+*/
+
+.icons img{
+   width: 100% !important;
+    height: auto;
+}
+
+/*
 
 #GithubLogo {
     height: 80px;
@@ -99,6 +114,7 @@
     height: 80px;
     width: 80px;
 }
+*/
 
 .container-fluid {
     position: relative;
@@ -110,7 +126,17 @@
     position: relative;
 }
 
+/*
 .footer-links {
+    display: inline;
+}
+*/
+
+.constrainedContainer {
+    width: 100%;
+}
+
+.fLinks {
     display: inline;
 }
 
