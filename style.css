@@ -8,7 +8,11 @@
 #e5e5e5 - lt griglio
 #fff - bianco*/
 
-
+/*
+FONTS:
+font-family: 'Anton', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+*/
 
 
 
@@ -31,7 +35,8 @@
 
 .nav-link {
     color: #4b5b5b;
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-weight: 600;
 }
 
 .nav-link:hover {
@@ -59,7 +64,12 @@
 }
 
 .mainHeader {
-    padding: 20px 20px;
+    padding: 20px 0;
+    margin: 0 20px;
+    font-family: 'Anton', sans-serif; 
+    font-size: 44px;
+    color: #4b5b5b;
+    border-bottom: 1px solid #cf0900;
 }
 
 .mainContent {
@@ -76,20 +86,22 @@
 .sidebar {
     margin-top: 185px;
     height: 50%;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #b8cccb;
     border-radius: 14px;
 }
 
-.sidebar h3 {
+.sidebar h4 {
     text-align: center;
     padding: 20px 10px;
     color: #4b5b5b;
+    font-family: 'Anton', sans-serif; 
+    font-size: 30px;
 }
 
 /*
 .icons {
-    margin: 20px auto;
+    margin-bottom: 20px;
 }
 */
 
@@ -98,26 +110,12 @@
     height: auto;
 }
 
-/*
 
-#GithubLogo {
-    height: 80px;
-    width: 80px;
-}
 
-#LinkedInLogo {
-    height: 80px;
-    width: 80px;
-}
-
-#StackOverflowLogo {
-    height: 80px;
-    width: 80px;
-}
-*/
 
 .container-fluid {
     position: relative;
+    margin-top: 85px;
 }
 
 .footer {
@@ -132,33 +130,67 @@
 }
 */
 
+/*
 .constrainedContainer {
     width: 100%;
 }
+*/
 
-.fLinks {
-    display: inline;
-}
 
 .footerContent {
     position: absolute;
 }
 
 
-/*.copyright {
-    color: #333;
-    font-family: 'Saira Condensed', sans-serif;
-    text-align: center;
-    line-height: 50px;
-}*/
+.copyright {
+    color: #fff;
+/*    line-height: 50px;*/
+}
 
 .nav-item {
     list-style: none;
+    float: left;
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-weight: 400;
+   
 }
 
-.nav-link {
-    
+.footer-item {
+    list-style: none;
+    float: left;
+    color: #760000;
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-weight: 400;
+    line-height: 57px;
+/*    text-align: center;*/
 }
+
+.footer-links {
+    text-align: center;
+}
+
+.flink {
+    color: #4b5b5b;
+    font-family: 'Archivo Narrow', sans-serif; 
+    font-weight: 600;
+}
+
+.flink:hover {
+    color: #cf0900;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.flink:active {
+    color: #cf0900;
+    font-weight: 600;
+}
+
+.divider {
+    color: #fff;
+    padding: 0 10px;
+}
+
 
 .emptyText {
     opacity: 0;
@@ -210,4 +242,19 @@
     border-left: none;
     border-right: 2px solid #fff;
     float: left;
+}
+
+
+/*
+_____________________________________
+
+MEDIA QUERIES
+_____________________________________*/
+
+@media (max-width: 1210px) {
+    
+}
+
+@media (max-width: 1002px) {
+    
 }
