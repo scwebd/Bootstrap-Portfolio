@@ -67,7 +67,7 @@ font-family: 'Archivo Narrow', sans-serif;
     padding: 20px 0;
     margin: 0 20px;
     font-family: 'Anton', sans-serif; 
-    font-size: 44px;
+    font-size: 6rems;
     color: #4b5b5b;
     border-bottom: 1px solid #cf0900;
 }
@@ -256,5 +256,23 @@ _____________________________________*/
 }
 
 @media (max-width: 1002px) {
+  .box1 {
+    visibility: hidden;
+}  
     
+  .box2 {
+    visibility: hidden;
+}
+
+  .box3 {
+    visibility: hidden;
+}
+
+  .box4 {
+    visibility: hidden;
+}
+
+  .box5 {
+    visibility: hidden;
+}
 }
