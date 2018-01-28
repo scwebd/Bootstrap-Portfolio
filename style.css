@@ -14,7 +14,11 @@ font-family: 'Anton', sans-serif;
 font-family: 'Archivo Narrow', sans-serif;
 */
 
-
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
 
 .navbar {
     background-color: #fff;
@@ -124,6 +128,10 @@ font-family: 'Archivo Narrow', sans-serif;
     position: relative;
 }
 
+.footer > .container {
+    height: 57px;
+}
+
 /*
 .footer-links {
     display: inline;
@@ -138,7 +146,8 @@ font-family: 'Archivo Narrow', sans-serif;
 
 
 .footerContent {
-    position: absolute;
+    /* position: absolute; 
+    wondering if this is necessary? ^^^ */
 }
 
 
@@ -197,8 +206,10 @@ font-family: 'Archivo Narrow', sans-serif;
 }
 
 .boxes {
-    position: absolute;
-    right: 153px;
+    /* position: absolute;
+    right: 153px; */
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .box1 {
@@ -256,6 +267,14 @@ _____________________________________*/
 }
 
 @media (max-width: 1002px) {
+  .footerContent {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+}
+  .boxes {
+    display: none;
+}
   .box1 {
     visibility: hidden;
 }  
